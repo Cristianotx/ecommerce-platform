@@ -57,199 +57,55 @@
         "hash": "6128619593113636242"
       },
       {
-        "file": ".gitignore",
-        "hash": "1695989209195185643"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "10066300031063478629"
-      },
-      {
-        "file": "README.md",
-        "hash": "3526304143251244535"
-      },
-      {
-        "file": "dist/apps/admin-backend/package.json",
-        "hash": "10312708638595013513"
-      },
-      {
-        "file": "dist/apps/admin/backend/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "dist/apps/admin/backend/main.js",
-        "hash": "12836148273045857981"
-      },
-      {
-        "file": "dist/apps/admin/backend/main.js.map",
-        "hash": "10216004894191563139"
-      },
-      {
-        "file": "dist/apps/admin/backend/package-lock.json",
-        "hash": "1480660476577794762"
-      },
-      {
-        "file": "dist/apps/admin/backend/package.json",
-        "hash": "11976050200916721961"
-      },
-      {
-        "file": "dist/libs/auth/models/README.md",
-        "hash": "507741994015606821"
-      },
-      {
-        "file": "dist/libs/auth/models/package.json",
-        "hash": "3516502610533180020"
-      },
-      {
-        "file": "dist/libs/auth/models/src/index.d.ts",
-        "hash": "13642689079814265441"
-      },
-      {
-        "file": "dist/libs/auth/models/src/index.d.ts.map",
-        "hash": "9336383781909475504"
-      },
-      {
-        "file": "dist/libs/auth/models/src/index.js",
-        "hash": "11123783650152218259"
-      },
-      {
-        "file": "dist/libs/auth/models/src/index.js.map",
-        "hash": "17477342571198770020"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/login.dto.d.ts",
-        "hash": "10999987111000119153"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/login.dto.d.ts.map",
-        "hash": "13188063683745656921"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/login.dto.js",
-        "hash": "16502423426084332026"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/login.dto.js.map",
-        "hash": "1923218821861806230"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/register.dto.d.ts",
-        "hash": "6569602060608266919"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/register.dto.d.ts.map",
-        "hash": "13368630850932795288"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/register.dto.js",
-        "hash": "13599532924392343345"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/dtos/register.dto.js.map",
-        "hash": "9465973842662578143"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/models.d.ts",
-        "hash": "4589532495910563910"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/models.d.ts.map",
-        "hash": "15389488649283387787"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/models.js",
-        "hash": "1067290511070280386"
-      },
-      {
-        "file": "dist/libs/auth/models/src/lib/models.js.map",
-        "hash": "9565755755912941157"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "14755833654515998580"
       },
       {
         "file": "jest.config.ts",
         "hash": "6870352021923392442"
       },
       {
+        "file": ".gitignore",
+        "hash": "5305102287821032222"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8550303465046509553"
+      },
+      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": "nx.json",
-        "hash": "4104174732089679688"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "5538823159477612887"
-      },
-      {
-        "file": "package.json",
-        "hash": "5568473213050769638"
+        "file": ".vscode/extensions.json",
+        "hash": "10066300031063478629"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "2477721816294321211"
       },
       {
-        "file": "vitest.workspace.ts",
-        "hash": "4665328684042819579"
+        "file": "eslint.config.mjs",
+        "hash": "14755833654515998580"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4104174732089679688"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "package.json",
+        "hash": "12570113334951438502"
+      },
+      {
+        "file": "README.md",
+        "hash": "3526304143251244535"
       }
     ],
     "projectFileMap": {
-      "backend-e2e": [
-        {
-          "file": "apps/admin/backend-e2e/eslint.config.mjs",
-          "hash": "16759498837230279251"
-        },
-        {
-          "file": "apps/admin/backend-e2e/jest.config.ts",
-          "hash": "8786133657139887731"
-        },
-        {
-          "file": "apps/admin/backend-e2e/project.json",
-          "hash": "831073139138533046"
-        },
-        {
-          "file": "apps/admin/backend-e2e/src/backend/backend.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/admin/backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/admin/backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/admin/backend-e2e/src/support/test-setup.ts",
-          "hash": "15521797170623961900",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/admin/backend-e2e/tsconfig.json",
-          "hash": "16437718785875567022"
-        },
-        {
-          "file": "apps/admin/backend-e2e/tsconfig.spec.json",
-          "hash": "8081058164965064295"
-        }
-      ],
       "frontend-e2e": [
         {
           "file": "apps/admin/frontend-e2e/eslint.config.mjs",
@@ -293,6 +149,18 @@
           "hash": "13190171284359385930"
         },
         {
+          "file": "apps/admin/backend/prisma/migrations/20250415224331_user_init/migration.sql",
+          "hash": "12243397880649037946"
+        },
+        {
+          "file": "apps/admin/backend/prisma/migrations/migration_lock.toml",
+          "hash": "872437952673290735"
+        },
+        {
+          "file": "apps/admin/backend/prisma/schema.prisma",
+          "hash": "10249513430223268996"
+        },
+        {
           "file": "apps/admin/backend/project.json",
           "hash": "15336834584883922984"
         },
@@ -312,7 +180,7 @@
         },
         {
           "file": "apps/admin/backend/src/app/app.module.ts",
-          "hash": "11673476679848632172",
+          "hash": "16640115768705377433",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -332,12 +200,69 @@
           ]
         },
         {
+          "file": "apps/admin/backend/src/app/prisma/prisma.module.ts",
+          "hash": "10698808516542012913",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/prisma/prisma.service.ts",
+          "hash": "4488494652581606473",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.controller.spec.ts",
+          "hash": "13416544024699613850",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.controller.ts",
+          "hash": "17348038053684220292",
+          "deps": [
+            "npm:@nestjs/common",
+            "@ecommerce-platform/auth/models"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.interface.ts",
+          "hash": "3250762340095167856"
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.module.ts",
+          "hash": "6443316750171329131",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.service.spec.ts",
+          "hash": "4841831373564007228",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/admin/backend/src/app/user/user.service.ts",
+          "hash": "8517289710678455331",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:bcrypt",
+            "@ecommerce-platform/auth/models"
+          ]
+        },
+        {
           "file": "apps/admin/backend/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
         {
           "file": "apps/admin/backend/src/main.ts",
-          "hash": "150780270862474464",
+          "hash": "8328191237745249097",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/core"
@@ -472,6 +397,123 @@
           "deps": [
             "npm:vite",
             "npm:@analogjs/vite-plugin-angular",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "apps/admin/backend-e2e/eslint.config.mjs",
+          "hash": "16759498837230279251"
+        },
+        {
+          "file": "apps/admin/backend-e2e/jest.config.ts",
+          "hash": "8786133657139887731"
+        },
+        {
+          "file": "apps/admin/backend-e2e/project.json",
+          "hash": "831073139138533046"
+        },
+        {
+          "file": "apps/admin/backend-e2e/src/backend/backend.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/admin/backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/admin/backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/admin/backend-e2e/src/support/test-setup.ts",
+          "hash": "15521797170623961900",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/admin/backend-e2e/tsconfig.json",
+          "hash": "16437718785875567022"
+        },
+        {
+          "file": "apps/admin/backend-e2e/tsconfig.spec.json",
+          "hash": "8081058164965064295"
+        }
+      ],
+      "@ecommerce-platform/auth/models": [
+        {
+          "file": "libs/auth/models/README.md",
+          "hash": "507741994015606821"
+        },
+        {
+          "file": "libs/auth/models/eslint.config.mjs",
+          "hash": "15897081600138545581",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/auth/models/package.json",
+          "hash": "732307270489761020",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/auth/models/project.json",
+          "hash": "4037757758728210761"
+        },
+        {
+          "file": "libs/auth/models/src/index.ts",
+          "hash": "16505944511864317815"
+        },
+        {
+          "file": "libs/auth/models/src/lib/dtos/create-user.dto.ts",
+          "hash": "13359463071990562192",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/auth/models/src/lib/dtos/update-user.dto.ts",
+          "hash": "676144915342782008",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "libs/auth/models/src/lib/models.spec.ts",
+          "hash": "5022349382988398987"
+        },
+        {
+          "file": "libs/auth/models/src/lib/models.ts",
+          "hash": "13522761443588667083"
+        },
+        {
+          "file": "libs/auth/models/tsconfig.json",
+          "hash": "9505886339790543345"
+        },
+        {
+          "file": "libs/auth/models/tsconfig.lib.json",
+          "hash": "2310906518119603203"
+        },
+        {
+          "file": "libs/auth/models/tsconfig.spec.json",
+          "hash": "16992467545950447943"
+        },
+        {
+          "file": "libs/auth/models/vite.config.ts",
+          "hash": "12438200205884751819",
+          "deps": [
+            "npm:vite",
             "npm:@nx/vite"
           ]
         }

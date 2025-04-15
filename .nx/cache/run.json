@@ -1,18 +1,29 @@
 {
   "run": {
     "command": "nx run backend:build:development",
-    "startTime": "2025-04-15T22:13:52.448Z",
-    "endTime": "2025-04-15T22:13:53.739Z",
+    "startTime": "2025-04-15T23:31:23.076Z",
+    "endTime": "2025-04-15T23:31:24.903Z",
     "inner": false
   },
   "tasks": [
     {
+      "taskId": "@ecommerce-platform/auth/models:build",
+      "target": "build",
+      "projectName": "@ecommerce-platform/auth/models",
+      "hash": "18377751446976131993",
+      "startTime": "2025-04-15T23:31:23.112Z",
+      "endTime": "2025-04-15T23:31:23.136Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
       "taskId": "backend:build:development",
       "target": "build",
       "projectName": "backend",
-      "hash": "7602328655369735008",
-      "startTime": "2025-04-15T22:13:52.484Z",
-      "endTime": "2025-04-15T22:13:53.733Z",
+      "hash": "10835165156296974707",
+      "startTime": "2025-04-15T23:31:23.140Z",
+      "endTime": "2025-04-15T23:31:24.897Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

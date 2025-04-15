@@ -309,372 +309,6 @@
       "nx/target-defaults"
     ]
   },
-  "apps/admin/backend": {
-    "root": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.cache": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.inputs": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.outputs": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.executor": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.cwd": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.command": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies.0": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.description": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.command": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.example": [
-      "apps/admin/backend/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "projectType": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.cache": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.dependsOn": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.inputs": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.outputs": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.executor": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.cwd": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.options.args": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.command": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.metadata.technologies": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata.technologies.0": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata.description": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata.help": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata.help.command": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build.metadata.help.example": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.options": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.executor": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.options.cwd": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.options.args": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.options.command": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.technologies": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.technologies.0": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.description": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.help": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.help.command": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.preview.metadata.help.example": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build-deps": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.build-deps.dependsOn": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.watch-deps": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.watch-deps.dependsOn": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.watch-deps.executor": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.watch-deps.options": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.watch-deps.options.command": [
-      "apps/admin/backend/webpack.config.js",
-      "@nx/webpack/plugin"
-    ],
-    "targets.test": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.metadata": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.cache": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.inputs": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.outputs": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.executor": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.options.cwd": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.options.env": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.options.command": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.technologies": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.technologies.0": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.description": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.help": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.help.command": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "targets.test.metadata.help.example": [
-      "apps/admin/backend/jest.config.ts",
-      "@nx/jest/plugin"
-    ],
-    "name": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.args": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.executor": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.defaultConfiguration": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.dependsOn": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.buildTarget": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.runBuildTargetDependencies": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development.buildTarget": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.buildTarget": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "apps/admin/backend/project.json",
-      "nx/core/project-json"
-    ]
-  },
   "apps/admin/backend-e2e": {
     "root": [
       "apps/admin/backend-e2e/project.json",
@@ -1177,6 +811,678 @@
     "targets.build.parallelism": [
       "nx.json",
       "nx/target-defaults"
+    ]
+  },
+  "libs/auth/models": {
+    "root": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/auth/models/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.vite:test": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.cache": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.inputs": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.outputs": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.executor": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.cwd": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.options.command": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.technologies.0": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.description": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.command": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:test.metadata.help.example": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "libs/auth/models/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/auth/models/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "libs/auth/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/admin/backend": {
+    "root": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/admin/backend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.args": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/admin/backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.test": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.metadata": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/admin/backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.args": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.runBuildTargetDependencies": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/admin/backend/project.json",
+      "nx/core/project-json"
     ]
   }
 }

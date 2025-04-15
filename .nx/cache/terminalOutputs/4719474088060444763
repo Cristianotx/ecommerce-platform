@@ -1,0 +1,45 @@
+[2m> [22mwebpack-cli build node-env=development
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 10.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m28:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'UserService'.
+  [0m [90m 26 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)
+   [90m 27 |[39m  findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {
+  [31m[1m>[22m[39m[90m 28 |[39m    [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mfindOne(id)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 29 |[39m  }
+   [90m 30 |[39m
+   [90m 31 |[39m  [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m32:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'UpdateUserDto'.
+  [0m [90m 30 |[39m
+   [90m 31 |[39m  [33m@[39m[33mPatch[39m([32m':id'[39m)
+  [31m[1m>[22m[39m[90m 32 |[39m  update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() dto[33m:[39m [33mUpdateUserDto[39m) {
+   [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 33 |[39m    [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mupdate(id[33m,[39m dto)[33m;[39m
+   [90m 34 |[39m  }
+   [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m33:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'update' does not exist on type 'UserService'.
+  [0m [90m 31 |[39m  [33m@[39m[33mPatch[39m([32m':id'[39m)
+   [90m 32 |[39m  update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() dto[33m:[39m [33mUpdateUserDto[39m) {
+  [31m[1m>[22m[39m[90m 33 |[39m    [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mupdate(id[33m,[39m dto)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m  }
+   [90m 35 |[39m
+   [90m 36 |[39m  [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m38:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'remove' does not exist on type 'UserService'.
+  [0m [90m 36 |[39m  [33m@[39m[33mDelete[39m([32m':id'[39m)
+   [90m 37 |[39m  remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {
+  [31m[1m>[22m[39m[90m 38 |[39m    [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mremove(id)[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 39 |[39m  }
+   [90m 40 |[39m }
+   [90m 41 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (90ceeffc37d7182d)

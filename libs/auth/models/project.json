@@ -1,0 +1,19 @@
+{
+  "name": "@ecommerce-platform/auth/models",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/auth/models/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/auth/models",
+        "main": "libs/auth/models/src/index.ts",
+        "tsConfig": "libs/auth/models/tsconfig.lib.json",
+        "assets": ["libs/auth/models/*.md"]
+      }
+    }
+  }
+}
