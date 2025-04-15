@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run backend:build:development",
+    "startTime": "2025-04-15T22:13:52.448Z",
+    "endTime": "2025-04-15T22:13:53.739Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "backend:build:development",
+      "target": "build",
+      "projectName": "backend",
+      "hash": "7602328655369735008",
+      "startTime": "2025-04-15T22:13:52.484Z",
+      "endTime": "2025-04-15T22:13:53.733Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+Compiling TypeScript files for project "admin-backend"...
+[1m[31m[96mapps/admin-backend/src/app/auth/auth.service.ts[0m:[93m5[0m:[93m39[0m - [91merror[0m[90m TS6059: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/index.ts' is not under 'rootDir' '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via '@ecommerce-platform/auth/models' from file '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend/src/app/auth/auth.service.ts'[39m[22m
+[1m[31m    Imported via '@ecommerce-platform/auth/models' from file '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend/src/app/auth/auth.controller.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m import { LoginDto, RegisterDto } from '@ecommerce-platform/auth/models';[39m[22m
+[1m[31m[7m [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/admin-backend/src/app/auth/auth.controller.ts[0m:[93m3[0m:[93m39[0m[39m[22m
+[1m[31m    [7m3[0m import { RegisterDto, LoginDto } from '@ecommerce-platform/auth/models';[39m[22m
+[1m[31m    [7m [0m [96m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96mapps/admin-backend/src/app/auth/auth.service.ts[0m:[93m5[0m:[93m39[0m - [91merror[0m[90m TS6307: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/index.ts' is not listed within the file list of project ''. Projects must list all files or use an 'include' pattern.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via '@ecommerce-platform/auth/models' from file '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend/src/app/auth/auth.service.ts'[39m[22m
+[1m[31m    Imported via '@ecommerce-platform/auth/models' from file '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend/src/app/auth/auth.controller.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m import { LoginDto, RegisterDto } from '@ecommerce-platform/auth/models';[39m[22m
+[1m[31m[7m [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/admin-backend/src/app/auth/auth.controller.ts[0m:[93m3[0m:[93m39[0m[39m[22m
+[1m[31m    [7m3[0m import { RegisterDto, LoginDto } from '@ecommerce-platform/auth/models';[39m[22m
+[1m[31m    [7m [0m [96m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m1[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/models.ts' is not under 'rootDir' '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m export * from './lib/models';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m1[0m:[93m15[0m - [91merror[0m[90m TS6307: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/models.ts' is not listed within the file list of project ''. Projects must list all files or use an 'include' pattern.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m export * from './lib/models';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/dtos/login.dto.ts' is not under 'rootDir' '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m export * from './lib/dtos/login.dto';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS6307: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/dtos/login.dto.ts' is not listed within the file list of project ''. Projects must list all files or use an 'include' pattern.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m export * from './lib/dtos/login.dto';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/dtos/register.dto.ts' is not under 'rootDir' '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/apps/admin-backend'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './lib/dtos/register.dto';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96mlibs/auth/models/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS6307: [0mFile '/Users/cristianoteixeira/Documents/REPOS/ecommerce-platform/libs/auth/models/src/lib/dtos/register.dto.ts' is not listed within the file list of project ''. Projects must list all files or use an 'include' pattern.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './lib/dtos/register.dto';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
