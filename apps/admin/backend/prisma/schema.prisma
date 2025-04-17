@@ -13,10 +13,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Company {
+  id    String  @id @default(uuid())
+  name  String? // no futuro pode ser editável
+  users User[]
+}
+
 model User {
   id        String   @id @default(uuid())
   name      String
   email     String   @unique
   password  String
   createdAt DateTime @default(now())
+
+  companyId  String
+  company    Company  @relation(fields: [companyId], references: [id])
 }

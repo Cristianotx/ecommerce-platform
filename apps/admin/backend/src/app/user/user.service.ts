@@ -8,7 +8,7 @@ import { User } from './user.interface';
 export class UserService {
   constructor(private prisma: PrismaService) {}
 
-  async create(data: CreateUserDto) {
+  async create(data: CreateUserDto, companyId: string) {
     const hashedPassword = await bcrypt.hash(data.password, 10);
 
     const user = await this.prisma.user.create({
@@ -16,6 +16,7 @@ export class UserService {
         name: data.name,
         email: data.email,
         password: hashedPassword,
+        companyId,
       },
     });
 
@@ -40,8 +41,10 @@ export class UserService {
   }
   
 
-  async findAll() {
+  async findAll(companyId: string) {
+    console.log('companyId', companyId);
     return this.prisma.user.findMany({
+      where: { companyId },
       select: {
         id: true,
         name: true,
@@ -63,26 +66,26 @@ export class UserService {
     });
   }
 
+  async update(id: string, dto: UpdateUserDto): Promise<User> {
+    const data = { ...dto };
 
-async update(id: string, dto: UpdateUserDto): Promise<User> {
-  const data = { ...dto };
-
-  if (dto.password) {
-    data.password = await bcrypt.hash(dto.password, 10);
-  }
-
-  const updated = await this.prisma.user.update({
-    where: { id },
-    data,
-    select: {
-      id: true,
-      name: true,
-      email: true,
-      createdAt: true
+    if (dto.password) {
+      data.password = await bcrypt.hash(dto.password, 10);
     }
+
+    const updated = await this.prisma.user.update({
+      where: { id },
+      data,
+      select: {
+        id: true,
+        name: true,
+        email: true,
+        createdAt: true
+      }
   });
 
   return updated;
-}
+  }
+
 
 }

@@ -1,0 +1,15 @@
+[2m> [22mwebpack-cli build node-env=development
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m25:29[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 23 |[39m   [33m@[39m[33mPost[39m()
+   [90m 24 |[39m   [36masync[39m create([33m@[39m[33mBody[39m() dto[33m:[39m [33mCreateUserDto[39m)[33m:[39m [33mPromise[39m[33m<[39m[33mUser[39m[33m>[39m {
+  [31m[1m>[22m[39m[90m 25 |[39m     [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mcreate(dto)[33m;[39m
+   [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 26 |[39m   }
+   [90m 27 |[39m
+   [90m 28 |[39m   [33m@[39m[33mPut[39m([32m':id'[39m)[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d7547428c440bbe7)

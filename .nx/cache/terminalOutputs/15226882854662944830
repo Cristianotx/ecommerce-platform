@@ -1,0 +1,15 @@
+[2m> [22mwebpack-cli build node-env=development
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/user/user.controller.ts:[32m[1m15:37[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 0 arguments, but got 1.
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()
+   [90m 14 |[39m   findAll([33m@[39m[33mCurrentUser[39m([32m'companyId'[39m) companyId[33m:[39m string)[33m:[39m [33mPromise[39m[33m<[39m[33mUser[39m[][33m>[39m {
+  [31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39muserService[33m.[39mfindAll(companyId)[33m;[39m
+   [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 16 |[39m   }
+   [90m 17 |[39m
+   [90m 18 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8efbf39d11719488)

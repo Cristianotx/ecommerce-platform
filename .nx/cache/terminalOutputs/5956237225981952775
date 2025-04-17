@@ -1,0 +1,15 @@
+[2m> [22mwebpack-cli build node-env=development
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/auth/auth.service.ts:[32m[1m63:5[22m[39m[1m[39m[22m
+[90mTS2739: [39mType '{ name: string; email: string; id: string; createdAt: Date; }' is missing the following properties from type '{ name: string; email: string; password: string; id: string; createdAt: Date; companyId: string; }': password, companyId
+  [0m [90m 61 |[39m     })[33m;[39m
+   [90m 62 |[39m
+  [31m[1m>[22m[39m[90m 63 |[39m     [36mreturn[39m user[33m;[39m
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 64 |[39m   }
+   [90m 65 |[39m }
+   [90m 66 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (29318f3d2a672543)

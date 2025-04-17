@@ -1,15 +1,18 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post, Put, UseGuards } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto, UpdateUserDto } from '@ecommerce-platform/auth/models';
 import { User } from './user.interface';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { User as CurrentUser } from '../auth/decorators/user.decorator';
 
-@Controller('users')
+  @UseGuards(JwtAuthGuard)
+  @Controller('users')
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Get()
-  findAll(): Promise<User[]> {
-    return this.userService.findAll();
+  findAll(@CurrentUser('companyId') companyId: string): Promise<User[]> {
+    return this.userService.findAll(companyId);
   }
 
   @Get(':id')
@@ -18,8 +21,8 @@ export class UserController {
   }
 
   @Post()
-  async create(@Body() dto: CreateUserDto): Promise<User> {
-    return this.userService.create(dto);
+  async create(@Body() dto: CreateUserDto, @CurrentUser('companyId') companyId: string): Promise<User> {
+    return this.userService.create(dto, companyId);
   }
 
   @Put(':id')
